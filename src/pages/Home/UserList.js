@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import { Button, Modal, Table, Input } from 'antd';
 import Column from 'antd/lib/table/Column';
+//引入样式
 import '../../static/css/UserList.scss'
 
-const dataSource = []
+const dataSource = [];
 for (let i = 0; i < 100; i++) {
     dataSource.push({
         id: i,
