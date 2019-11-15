@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 // redux和router
 import { Provider } from 'react-redux'
 import store from './store'
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
+import { BrowserRouter as Router, Route} from 'react-router-dom'
 import routes from './router'
 // 引入样式
 import './static/css/App.scss'

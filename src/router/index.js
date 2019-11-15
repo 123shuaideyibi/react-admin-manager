@@ -1,16 +1,12 @@
 import Home from '../pages/Home/Home'
-import UserList from '../pages/Home/UserList'
-import Delete from '../pages/Home/Delete'
-import Update from '../pages/Home/Update'
-import Select from '../pages/Home/Select'
-import Personal from '../pages/Head/Personal'
+import UserList from '../pages/Home/UserList'//用户列表
+import ArticleList from '../pages/Home/ArticleList'//文章列表
+import Personal from '../pages/Home/Personal'//文章列表
 
 let routes = [
     { path: '/', component: Home, exact: true },
     { path: '/userlist', component: UserList },
-    { path: '/delete', component: Delete },
-    { path: '/update', component: Update },
-    { path: '/select', component: Select },
+    { path: '/articleList', component: ArticleList },
     { path: '/personal', component: Personal },
 ];
 

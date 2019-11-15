@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Menu, Icon } from 'antd'
 import 'antd/dist/antd.css'
 import { Link } from "react-router-dom";
-import { black } from 'ansi-colors';
 
 const { SubMenu } = Menu;
 
@@ -31,9 +30,7 @@ class Navigator extends Component {
                             </span>
                         }>
                         <Menu.Item><Link to="/userlist/">用户列表</Link></Menu.Item>
-                        <Menu.Item><Link to="/delete/">aa</Link></Menu.Item>
-                        <Menu.Item><Link to="/update/">bb</Link></Menu.Item>
-                        <Menu.Item><Link to="/select/">cc</Link></Menu.Item>
+                        <Menu.Item><Link to="/articlelist/">文章列表</Link></Menu.Item>
                     </SubMenu>
                     <Menu.Item
                         key="settings">
