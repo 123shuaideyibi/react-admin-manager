@@ -20,14 +20,14 @@ for (let i = 0; i < 100; i++) {
 
 
 class UserList extends Component {
-    state = {visible: false};
+    state = {
+        visible: false
+    };
 
     render() {
         return (
             <div className="userlist">
-                <Button type="primary" onClick={this.showModal}>添加用户</Button>
-                <br/>
-
+                <Button type="primary" onClick={this.showModal}>添加用户</Button> <br/> <br/>
                 <Table
                     bordered
                     dataSource={dataSource}
@@ -93,8 +93,6 @@ class UserList extends Component {
                     </div>
                 </Modal>
 
-                {/*删除列表某一项的对话框*/}
-                <Modal/>
             </div>
         );
     }
